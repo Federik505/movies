@@ -1,0 +1,8 @@
+<p>movielist works!</p>
+<div class="parent">
+    <div class="movie-container">
+        <div *ngFor="let movie of movies">
+            <app-movie-thumbnail [movie]="movie"></app-movie-thumbnail>
+        </div>
+    </div>
+</div>
